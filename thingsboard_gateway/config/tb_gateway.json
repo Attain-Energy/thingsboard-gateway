@@ -66,8 +66,9 @@
       "name": "Haystack SCRAM Connector",
       "type": "haystack_scram.haystack_scram_connector.HaystackScramConnector",
       "configuration": {
-        "username": "your_username",
-        "password": "your_password",
+        "server_url": "https://nhscroydon-mps.onesight.solutions/haystack",
+        "username": "Attain",
+        "password": "CAAttainPass123",
         "scram_mechanism": "SCRAM-SHA-256"
       }
     }

@@ -8,6 +8,7 @@ class HaystackScramConnector(Connector):
     def __init__(self, gateway, config):
         super().__init__(gateway, config)
         self.config = config
+        self.server_url = config.get("server_url")
         self.username = config.get("username")
         self.password = config.get("password")
         self.scram_mechanism = config.get("scram_mechanism", "SCRAM-SHA-256")
